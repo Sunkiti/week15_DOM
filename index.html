@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Корзина</h1>
+    <main class="container">
+        <article class="container__item">
+            <img src="shirt.jpg" alt="shirt" class="container__item_image">
+            <div class="container__item_info">
+                <h2 class="item__title">Майка</h2>
+                <p class="item__text">Цвет: <span class='colour'>коричневый</span></p>
+                <p class="item__text">Размер: М</p>
+                <p class="item__text">Количество: 1</p>
+            </div>
+            <div class="item__price" id="shirt">800 
+              <span class='price'>руб.</span>
+            </div>
+        </article>
+        <article class="container__item">
+            <img src="skirt.jpg" alt="skirt" class="container__item_image">
+            <div class="container__item_info">
+                <h2 class="item__title">Юбка</h2>
+                <p class="item__text">Цвет: 
+                  <span class='colour'>коричневый</span>
+                </p>
+                <p class="item__text">Размер: М</p>
+                <p class="item__text">Количество: 1</p>
+            </div>
+            <div class="item__price" id="skirt">1800 
+              <span class='price'>руб.</span>
+            </div>
+        </article>
+        <article class="container__item">
+          <img src="jeans.jpg" alt="jeans" class="container__item_image">
+          <div class="container__item_info">
+              <h2 class="item__title">Джинсы</h2>
+              <p class="item__text">Цвет: 
+                <span class='colour'>серый</span>
+              </p>
+              <p class="item__text">Размер: М</p>
+              <p class="item__text">Количество: 1</p>
+          </div>
+          <div class="item__price" id="jeans">4800 
+            <span class='price'>руб.</span>
+          </div>
+      </article>
+      <article class="container__item">
+        <img src="shirt2.jpg" alt="the second shirt" class="container__item_image">
+        <div class="container__item_info">
+            <h2 class="item__title">Рубашка</h2>
+            <p class="item__text">Цвет: 
+              <span class='colour'>белый</span>
+            </p>
+            <p class="item__text">Размер: М</p>
+            <p class="item__text">Количество: 1</p>
+        </div>
+        <div class="item__price" id="shirt2">1800 
+          <span class='price'>руб.</span>
+        </div>
+    </article>
+      <div class="contaner__finalprice">
+        <button class="container__finalprice_button">Использовать купон на 20%</button>
+        <div class="contaner__finalprice_total"> 
+          <span class='price'>руб.</span>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
