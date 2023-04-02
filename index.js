@@ -6,11 +6,9 @@ const jeansprice = +document.getElementById ("jeans_price").textContent
 console.log (jeansprice);
 const shirtprice2 = +document.getElementById ("shirt2_price").textContent
 console.log (shirtprice2);
-function sum (shirtprice, skirtprice, jeansprice, shirtprice2) {
-    return shirtprice + skirtprice + jeansprice + shirtprice2;
+const total = shirtprice + skirtprice + jeansprice + shirtprice2;
+console.log (total);
+const discount = () => {
+    document.querySelector('.contaner__finalprice_total').innerHTML = 
+    total * 0.8;
 }
-console.log (sum);
-function final () {
-    return total * 0.8
-}
-// alert (final);
