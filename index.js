@@ -1,11 +1,15 @@
-const shirtprice = document.getElementById ("shirt")
+const shirtprice = document.getElementById ("shirt_price").textContent
 console.log (shirtprice);
-const skirtprice = document.getElementById ("skirt")
+Number (shirtprice);
+const skirtprice = document.getElementById ("skirt_price").textContent
 console.log (skirtprice);
-const jeansprice = document.getElementById ("jeans")
+Number (skirtprice);
+const jeansprice = document.getElementById ("jeans_price").textContent
 console.log (jeansprice);
-const shirtprice2 = document.getElementById ("shirt2")
+Number (jeansprice);
+const shirtprice2 = document.getElementById ("shirt2_price").textContent
 console.log (shirtprice2);
+Number (shirtprice2);
 function total () {
     shirtprice + skirtprice + jeansprice + shirtprice2
 }
